@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	body{
+		background-color: linen;
+	}
+	#title {
+		color:maroon;
+		<--margin-left: 40px;-->
+	}
+	.birthday {
+		background-color: lightgray;
+		font-weight: normal;
+	}
+	.email {
+		color: skyblue;
+	}
+	.number {
+		font-family: tahoma, sans-serif, arial;
+	}
+	</style>
+	<style type="text/css">
+	body    { font-family:arial, helvetica, sans-serif; }
+	a.nodec { text-decoration:none; }
+	a:hover { text-decoration:underline; }
+	li      { font-weight:bold; }
+	li em   { text-decoration:line-through; }
+	h1, em  { text-decoration:underline; }
+	ul      { margin-left:20px; }
+	</style>
+</head>
+<body>
+	<h1>linklist</h1>
+		<a href="index.html">Go back to mainpage</a>
+		<a href="mailto:111306011@g.nccu.edu.tw">Feel free to send me email~</a>
+	<h1 id="title">Your info and comment</h1>
+
+	<p>This form shows your personal info and anything you want to say.</p>
+	<form action="/action_page.php" method = "post" action = "www.deitel.com">
+		<input type = "hidden" name = "recipient" value = "www.deitel.com">
+		<input type = "hidden" name = "subject" value = "Feedback Form">
+		<input type = "hidden" name = "redirect" value = "main.html">
+
+	<h1></h1>
+<table border = "1" style="width:100%"
+	<caption></caption>
+	<thead>
+		<tr>
+			<th colspan="3">
+				<strong>About you</strong>
+			</th>
+			
+		</tr>
+
+		<tr>
+			<th rowspan="0">
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="3"><img src="https://www.w3schools.com/images/w3schools_green.jpg" width = "50",height = "167",alt = "Picture of visiter"><p align=center>personal photo</p></th>
+			<th colspan="2">
+
+				<p align=left><label>Name:
+					<input name = "name" type = "text" size = "25" maxlength = "30">
+				</label></p>
+				</form>
+				<form><p align=left>Gender:
+					<input type="radio" name="gender" value="Male">Male
+					<input type="radio" name="gender" value="Female">Female
+					<input type="radio" name="gender" value="Other">Other
+				</p></form>
+			</th>
+		</tr>
+		<tr>
+			<th colspan="1">
+				
+				<form action="/action_page.php"><p align=left><label>Country:</label><size = "25" maxlength = "30">
+					<select name="level">
+						<option value="Taipei" selected>Taipei</option>
+						<option value="Tainan">Tainan</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Taoyuan">Taoyuan</option>
+					</select></p>
+				</form>
+			</th>
+			<th colspan="1">
+				
+				<form action="https://example.com"><p align=left><label>Birthday:</label>
+  					<input type="date" name="bday" /></p>
+  				</form>
+			</th>
+		</tr>
+		    <th colspan="2">
+		    	
+				<p align=left><label>Email:</label>
+					<input type= "E-mail" class="email" name="email" placeholder="name@domain.com" required>
+					(name@domain.com)
+				</p>
+				</form>
+		    </th>
+		<tr>
+			<th><p align=left>Hobby</p></th>
+			<td colspan="2"><form action="/action_page.php" method="get">
+				<input type="checkbox" name="Swimmingn"> Swimming
+				<input type="checkbox" name="Volleyball"> Volleyball
+				<input type="checkbox" name="Movie"> Movie
+				<input type="checkbox" name="Game"> Game
+				<input type="checkbox" name="Sleep"> Sleep
+			</form></td>
+		</tr>
+		<tr>
+			<th><p align=left>Skill</p></th>
+			<td colspan="2"><form action="/action_page.php" method="get">
+				<input type="checkbox" name="Java"> Java
+				<input type="checkbox" name="HTML"> HTML				
+				<input type="checkbox" name="Python"> Python
+				<input type="checkbox" name="Microsoft Office"> Microsoft Offic
+				<input type="checkbox" name="Premiere"> Premiere
+			</form></td>
+		</tr>
+		<tr>
+			<th><p align=left>Say Something</p></th>
+			<td colspan="2">
+					<p>
+					<input placeholder="Say something here." name = "Say Something" type = "text" size = "25" maxlength = "30">
+					</p>
+				</form></td>
+		</tr>
+	</tbody>
+	<thead>
+		<tr>
+			<th colspan="3">
+				<p align=left><input type = "Submit" value = "提交">
+				<input type = "reset" value= "重置">
+			</th></p>
+			
+		</tr>
+
+		<tr>
+			<th rowspan="0">
+		</tr>
+	</thead>
+	</table>
+	
+		<p><label>Your favorite color:
+			<input type= "color" autofocus />
+				(Hexadecimal code such as #ADD8E6)
+		</label></p>
+
+		<p><label for="date">Appointment Date:</label>
+		<input type="date" class="birthday" name="date">
+			(yyyy-mm-dd)</p>
+	
+		<p><label for="number">Choose a meme:</label>
+		<input type="number" class="number" name="Number" min="1" max="3" value="1">
+		 (Enter a number between 1 and 3)</p>
+		<p><a href="https://miro.medium.com/max/1400/0*IPegbk7mHxPISmuv.jpg">image1</a></p>
+		<p><a href="https://unews.nccu.edu.tw/wp-content/uploads/2021/10/f1f121c324a4768c497773439706bdf5.jpg">image2</a></p>
+		<p><a href="https://blog.shopline.tw/wp-content/uploads/2022/03/meme-marketing-introduction-2.png">image3</a></p>
+		<p><label for="range">Your Credit:0 </label>
+		<input type="range" class="range" name="range" min="0" max="35">
+		35</p>
+
+		<p><label for="gsearch">Search:</label>
+			<input type="search" class="search" name="search1" placeholder="search query"></p>
+
+		<p><label for="appt">Appointment Time:</label>
+			<input type="time" class="appt" name="appt">
+			(hh:mm)
+		</p>
+		<p>
+		<input type = "submit" value = "Submit">
+		<input type = "reset" value= "Clear">
+		</p>
+	</body>
+    </html>
