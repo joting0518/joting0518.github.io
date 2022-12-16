@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<p>Before the script...</p>
+	<script>
+		/*	
+		var name;
+		name = window.prompt("enter your name");
+		document.writeln("<h1>Hello "+ name +", welcome to my world!</h1>");
+		alert('Current date: '+ Date());
+		*/
+		/* html
+		<input type="button" value="1st button" onClick="alert('first alert')">
+		<input type="button" value="2nd button" onClick="alert('second alert')">
+		<input type="button" value="3rd button" onClick="alert('change color');document.body.style.backgroundColor = 'blue';">
+		<input type="button" value="4th button" onClick="document.body.style.backgroundColor = 'green';">
+		*/
+		var x = window.prompt("enter number1 integer");
+		var y = window.prompt("enter number2 integer");
+		var num1 = parseInt(x);
+ 		var num2 = parseInt(y);
+ 		if(num1>num2){
+ 			document.body.style.backgroundColor = 'lightblue';
+ 			document.writeln(num1+">"+num2);
+ 		}
+ 		else if(num1<num2){
+ 			document.body.style.backgroundColor = 'lightgreen';
+ 			document.writeln(num2+">"+num1);
+ 		}
+ 		else if(num1==num2){
+ 			document.body.style.backgroundColor = 'lightyellow';
+ 			document.writeln(num1+"=="+num2);
+ 		}
+
+	</script>
+	<p>
+	<input type="button" value="1st button" onClick="alert(num1)">
+	<input type="button" value="2nd button" onClick="alert(num2)">
+	</p>
+	<p>...After the script</p>
+</body>
+</html>
