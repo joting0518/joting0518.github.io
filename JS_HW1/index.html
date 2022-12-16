@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<p>Before the script...</p>
+	<script>
+		var x = parseInt(window.prompt("enter number between 1-10"));
+ 		var rand=Math.floor((Math.random()*10)+1);
+
+ 		while(x!=rand){
+ 			x = parseInt(window.prompt("enter number between 1-10 again"));
+ 		}
+ 		document.writeln("You guess the number!");
+ 		document.writeln("The number is "+rand);
+	</script>
+	<p>...After the script</p>
+	
+	
+</body>
+</html>
