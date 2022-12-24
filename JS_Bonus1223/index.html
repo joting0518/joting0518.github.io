@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+	<h2>JavaScript char check</h2>
+
+
+
+
+	<p id="demo"></p>
+
+	<script>
+
+  
+	  var text = window.prompt("input data:","");
+	  var char = window.prompt("input a char to search","");
+	  
+	  var result1 = text.indexOf(char);
+	  var result2 = text.lastIndexOf(char);
+	  var result3 = text.indexOf(char,3);
+	 
+	  document.getElementById("demo").innerHTML = result1+"<br>"+result2+"<br>"+result3;
+	  
+  
+  
+  
+	</script>
+
+</body>
+</html>
